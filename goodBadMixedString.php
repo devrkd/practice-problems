@@ -1,5 +1,19 @@
 <?php
 
+/*
+ * Problem Statement
+ * You have to classify a string as “GOOD”, “BAD” or “MIXED”.
+ * A string is composed of lowercase alphabets and ‘?’. A ‘?’ is to be replaced by any of the lowercase alphabets.
+ * Now you have to classify the string on the basis of some rules.
+ * If there are 3 or more than 3 consonants together, the string is considered to be “BAD”.
+ * If there are 5 or more than 5 vowels together, the also string is considered to be “BAD”.
+ * A string is “GOOD” if its not “BAD”. Now when question marks are involved, they can be replaced with consonants or vowels to make new strings.
+ * If all the choices lead to “GOOD” strings then the input is considered as “GOOD”, and if all the choices lead to “BAD” strings then the input is “BAD”,
+ * else the string is “MIXED?
+ *
+ * */
+
+
 /**
  * Class StringChecker
  */
