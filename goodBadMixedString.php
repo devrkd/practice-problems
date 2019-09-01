@@ -194,7 +194,7 @@ Class StringChecker
         $constsResult = $this->processConstsVowel($this->consts, self::CONSTS_LIMIT);
         $vowelsResult = $this->processConstsVowel($this->vowels, self::VOWELS_LIMIT);
 
-        if(($constsResult == "bad" || $vowelsResult == "bad") &&
+        if(($constsResult == "bad" || $vowelsResult == "bad") ||
           ($constsResult == "mixed" && $vowelsResult == "mixed")) {
             return $this->input.':bad';
         }
